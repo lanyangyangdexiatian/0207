@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#list li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+#list li{
+    background-color:#4B89DC;
+}
+.zIndex{
+    z-index: 5;
+}
+.a1{
+    position: absolute;
+    bottom:0;
+    top:20%;
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+ div.circle{
+    position: relative;
+}
+ div.circle img.circleImg {
+    width:91px;
+    height:91px;
+    margin-bottom: 80px;
+}
+ div.phone{
+    position: absolute;
+    top:0;
+    width:100%;
+}
+ div.phone img.phoneImg{
+    margin-top: 11px;
+    width:69px;
+    height:69px;
+}
+.a1 div.text{
+    width: 270px;
+    margin: 0 auto
+}
+.a1 div.text p:last-child{
+    font-size:20px;
+}
+.a2,.a3,.a4,.a5{
+    padding:20px ;
+    position: relative;
+}
+.a2 div.phone,.a3 div.phone,.a4 div.phone,.a5 div .phone{
+    top:20px;
+}
+.a2 div.phone img.phoneImg,.a3 div.phone img.phoneImg,.a4 div.phone img.phoneImg,.a5 div.phone img.phoneImg{
+    margin-left:12px;
+}
+.box div.circle img.circleImg{
+    margin-bottom: 30px;
+}
+.tab{
+    width:100%;
+    height:66px;
+    background-color:#5E5F61;
+    color:#fff;
+    font-size:18px;
+}
+
+.tab div{
+    height: 66px;
+    float: left;
+    line-height: 33px;
+    font-size: 28px;
+    width: 25%;
+    text-align: center;
+}
+.tab div.active{
+    background-color:#404449;
+}
+.a2 .per_message ,.a3 .experience,.a4 .skill,.a5 .project_link{
+    margin-top: 30px;
+}
+.a2 .per_message p,.a3 .experience p,.a4 .skill p,.a5 .project_link p{
+    line-height: 35px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.a4{}
+
+
+
+
+
